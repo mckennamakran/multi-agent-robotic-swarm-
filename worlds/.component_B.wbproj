@@ -5,7 +5,7 @@ sceneTreePerspectives: 000000ff00000001000000030000001e000000c0000000fa010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 3 "controllers/b_consensus_controller/b_consensus_controller.py" "controllers/b_neural_controller/b_neural_controller.py" "scripts/B4_neural_training.py" "controllers/b_swarm_controller/b_swarm_controller.py" "data/B4_neural_logs/B4_model.json"
+textFiles: 3 "../../../../../../../Desktop/ASR700_ComponentB/multi-agent-robotic-swarm-/controllers/b_consensus_controller/b_consensus_controller.py" "../../../../../../../Desktop/ASR700_ComponentB/multi-agent-robotic-swarm-/controllers/b_neural_controller/b_neural_controller.py" "../../../../../../../Desktop/ASR700_ComponentB/multi-agent-robotic-swarm-/scripts/B4_neural_training.py" "../../../../../../../Desktop/ASR700_ComponentB/multi-agent-robotic-swarm-/controllers/b_swarm_controller/b_swarm_controller.py" "../../../../../../../Desktop/ASR700_ComponentB/multi-agent-robotic-swarm-/data/B4_neural_logs/B4_model.json"
 consoles: Console:All:All
 renderingDevicePerspectives: epuck1:camera;1;0.295833;0;0
 renderingDevicePerspectives: epuck2:camera;1;0.296875;0.165782;0
