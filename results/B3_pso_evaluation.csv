@@ -1,0 +1,5 @@
+robot,final_distance_to_target_m,best_swarm_fitness_m,messages_received,obstacle_detection_samples
+epuck1,2.2466,0.4103,561,0
+epuck2,1.2714,0.4103,561,6
+epuck3,1.0879,0.4103,561,0
+epuck4,0.7441,0.4103,561,3

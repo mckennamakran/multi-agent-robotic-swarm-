@@ -1,0 +1,5 @@
+robot,duration_s,messages_sent,messages_received,distance_travelled_m,logged_escape_sequences,maximum_front_left,maximum_front_right
+epuck1,150.4,314,939,8.7552,5,77.23,78.14
+epuck2,150.4,314,939,8.6805,6,77.24,78.17
+epuck3,150.4,314,939,8.5512,8,90.94,77.63
+epuck4,150.4,314,939,8.4444,9,77.57,92.42

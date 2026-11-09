@@ -1,0 +1,112 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896257 0.5773502691896257 0.5773502691896257 2.0944
+  position -1.1579430107364064e-05 -1.1579462849711092e-05 5.9049000000237095
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+  wallHeight 0.15
+}
+E-puck {
+  hidden position_0_0 592.314421210575
+  hidden position_0_1 577.8944087088323
+  hidden rotation_1 0 1 0 3.089617210904465
+  hidden rotation_2 0 -1 0 5.306024677830143
+  translation 1.328501133477262 -0.2808758799272282 -6.395808859824444e-05
+  rotation -0.0004008767555013795 -0.0001445244368473606 0.999999909205253 -2.4500483138888076
+  name "epuck1"
+  controller "b_neural_controller"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+E-puck {
+  hidden position_0_0 649.5248468179898
+  hidden position_0_1 642.4510307017634
+  hidden rotation_1 0 -0.9999999999999999 0 5.450468596751263
+  hidden rotation_2 0 -1 0 4.18317130552739
+  translation 0.8947208842471988 -1.2486560902254107 -6.395839113209657e-05
+  rotation 0.00037995904517532206 0.000262060735493685 -0.9999998934776417 1.9334565733756008
+  name "epuck2"
+  controller "b_neural_controller"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+E-puck {
+  hidden position_0_0 593.3361030896576
+  hidden position_0_1 545.5453728155553
+  hidden rotation_1 0 -1 0 1.6864436271400667
+  hidden rotation_2 0 1 0 4.883965136170721
+  translation 0.7069241240035012 0.3955534958521394 -6.395805415395847e-05
+  rotation -0.00040249293763231403 0.00031832599485809125 0.9999998683339892 1.8027959320958362
+  name "epuck3"
+  controller "b_neural_controller"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+E-puck {
+  hidden position_0_0 601.0151042742418
+  hidden position_0_1 588.4613192811175
+  hidden rotation_1 0 -1 0 2.402415129628982
+  hidden rotation_2 0 1 0 1.4639820437938145
+  translation 0.038526881545983244 0.46361164607945965 -6.395810920718954e-05
+  rotation 0.00039990444687997316 0.0007135579645453982 -0.9999996654556764 1.0221365741628416
+  name "epuck4"
+  controller "b_neural_controller"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+SolidBox {
+  translation 0 0 0.15
+  name "Obstacle 1"
+  size 0.4 0.4 0.3
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.6 0.3 0.15
+  name "Obstacle 2"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0 0.333333 1
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.6 -0.3 0.15
+  name "Obstacle 3"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 1 1 0
+    roughness 0.5
+    metalness 0
+  }
+}

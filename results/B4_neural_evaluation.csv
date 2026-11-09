@@ -1,0 +1,5 @@
+robot,duration_s,samples,obstacle_samples,forward,left,right
+epuck1,89.92,281,0,0,140,141
+epuck2,89.92,281,2,0,123,158
+epuck3,89.92,281,4,0,124,157
+epuck4,89.92,281,42,0,143,138
