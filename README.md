@@ -392,13 +392,13 @@ The controller uses forward propagation to process sensor readings.
 
 Each neuron calculates a weighted sum:
 
-
-# PIC
+<img width="311" height="184" alt="image" src="https://github.com/user-attachments/assets/885fcfff-c834-4851-8188-d80e41514198" />
 
 
 The hidden layer applies the ReLU activation function:
 
-# PIC
+<img width="940" height="247" alt="image" src="https://github.com/user-attachments/assets/da3a5222-999c-49c4-b330-8315eaf08b2b" />
+
 
 The output layer generates three scores. The controller selects the index of the highest output 
 
@@ -460,5 +460,8 @@ The existing confusion matrix and training-loss figures are retained as experime
 ---
 
 # Explanation Pictures 
+
+<img width="624" height="585" alt="image" src="https://github.com/user-attachments/assets/4bea54e1-670f-494d-a6b8-df0857a1d279" />
+<img width="859" height="624" alt="image" src="https://github.com/user-attachments/assets/363b4dc8-cfa1-4fd6-9fd4-83a26984a34d" />
 
 
