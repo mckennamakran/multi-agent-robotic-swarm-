@@ -41,6 +41,10 @@ emitter = robot.getDevice("emitter")
 receiver = robot.getDevice("receiver")
 receiver.enable(timestep)
 
+#connect camera
+camera = robot.getDevice("camera")
+camera.enable(timestep)
+
 #connects 2 wheels
 left_motor = robot.getDevice("left wheel motor")
 right_motor = robot.getDevice("right wheel motor")
